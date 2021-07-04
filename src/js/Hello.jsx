@@ -1,7 +1,7 @@
-import { setState } from 'react';
+import React, { useState } from 'react';
 
 const Hello = () => {
-  const [greeting, setGreeting] = setState("こんにちは");
+  const [greeting, setGreeting] = useState("こんにちは");
 
   return (
     <>
